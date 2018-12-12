@@ -5,6 +5,8 @@
 Bugfixes
 
 - fixed typo in documentation
+- cli
+  - Fixed issue with child_process.spaw on windows by using cross-spawn. (https://stackoverflow.com/questions/37459717/error-spawn-enoent-on-windows)
 
 ---
 
